@@ -1,3 +1,5 @@
+/*Question_link : https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s/0 */
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -7,6 +9,7 @@ class Solution
     void sort012(int a[], int n)
     {
         // coode here
+        //used count sort.
         int count[4];
         for(int i = 0 ; i<4;i++){
             count[i] = 0;
